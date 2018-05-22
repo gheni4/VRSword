@@ -13,7 +13,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-f1085211a005c389ee6e78e6f1cd0e3a Assembly-CSharp.dll:.SwordMove
+2716fc22dbe4918eea100a5410bb6b29 Assembly-CSharp.dll:.SwordMove
 bfddcc339fade781f72a7bb9403d51f3 Assembly-CSharp.dll:.OVRGazePointer
 5979728add95abdc642051d92f726e95 Assembly-CSharp.dll:.OVRDebugHeadController
 09da61ba0ef26d77645f23cec252b635 Assembly-CSharp.dll:.OVRManager
@@ -164,3 +164,5 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 584795015275d7765225ad872c0e8bd8 Assembly-CSharp.dll:.OVRGrabber
 6fbd6cfe2b2cc56814a08bb6dba2f168 Assembly-CSharp.dll:.Grab
 3b6fa877d16528ce58fd8efbb57850a5 Assembly-CSharp.dll:.TouchController
+e623ea43d8341a51c1eef03abd232cc3 Assembly-CSharp.dll:.Player
+2730a0cb5c147b8eba0d214adcf9138f Assembly-CSharp.dll:.Sword

@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SwordMove : MonoBehaviour {
-	public GameObject target;
+	private GameObject target;
 	public Rigidbody rb;
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody>();
+		target = transform.parent.GetComponent<Sword> ().controller;
 	}
 	
 	void FixedUpdate () {
