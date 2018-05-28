@@ -8,6 +8,6 @@ public class Player : MonoBehaviour {
 	void Start() {
 		Debug.Log("is local");
 		GameObject sword = Instantiate(swordPrefab) as GameObject; 
-		sword.GetComponent<Sword> ().controller = transform.GetChild(1).gameObject;
+		sword.GetComponent<Sword>().controller = transform.GetChild (1).gameObject;
 	}
 }

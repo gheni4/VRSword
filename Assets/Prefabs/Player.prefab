@@ -41,6 +41,8 @@ GameObject:
   - component: {fileID: 23198947670246990}
   - component: {fileID: 114771179978261656}
   - component: {fileID: 114111758082413224}
+  - component: {fileID: 114759175620155348}
+  - component: {fileID: 114438063978965130}
   m_Layer: 0
   m_Name: RightHand
   m_TagString: Untagged
@@ -217,6 +219,59 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordPrefab: {fileID: 1744294278306592, guid: 1da18c2e63bba994f8864af01ac91b31,
     type: 2}
+--- !u!114 &114438063978965130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1750555980121086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
+--- !u!114 &114759175620155348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1750555980121086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 45
+    i1: 69
+    i2: 25
+    i3: 74
+    i4: 199
+    i5: 250
+    i6: 26
+    i7: 228
+    i8: 120
+    i9: 161
+    i10: 30
+    i11: 78
+    i12: 47
+    i13: 215
+    i14: 110
+    i15: 18
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114771179978261656
 MonoBehaviour:
   m_ObjectHideFlags: 1
