@@ -12,6 +12,9 @@ public class SwordMove : MonoBehaviour {
 	}
 	
 	void FixedUpdate () {
+		if (target == null) {
+			return;
+		}
 		Vector3 delta = target.transform.position - transform.position;
 		rb.AddForce((delta) * 50F);
 		rb.AddForce((delta - rb.velocity) * 5F);

@@ -100,6 +100,7 @@
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRTrackedRemote.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
      <Compile Include="Assets\Scripts\Grab.cs" />
+     <Compile Include="Assets\Scripts\KeyResponder.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Sword.cs" />
      <Compile Include="Assets\Scripts\SwordMove.cs" />

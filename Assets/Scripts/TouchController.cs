@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class TouchController : NetworkBehaviour {
+public class TouchController : MonoBehaviour {
 	public OVRInput.Controller controller;
 
 	// Update is called once per frame
